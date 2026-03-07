@@ -84,16 +84,4 @@ path_1 = "./test1"
 dataset_creation(path_1)
 
 
-# spectral_tensor = torch.load("total_dataset_WithShuffle_2703.pth",weights_only=False)
-# loader = DataLoader(dataset, batch_size=2)
-# dinv.utils.plot(spectral_tensor[0])
-#os.chdir("/projects/EVS-Sisyphe/Paudisio/Database")
 
-
-# Normaliser les données
-# Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-9999.0..-9999.0].
-
-#Normalize iteratively the data
-# for i in range(len(train)):
-#     tmp = target[i]
-#     target[i] = normalize(tmp)
